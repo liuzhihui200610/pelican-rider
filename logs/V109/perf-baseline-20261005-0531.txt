@@ -1,0 +1,13 @@
+=== V109 性能基线 20261005-0531 ===
+GPU: RTX 4060 Laptop / i7-13650HX / 24GB / Win11 / 每档 300 帧（跳过前 90 帧着色器编译期）
+（V109-A 修复：--perf 现已生效 --autoday/--autocam，且采样期间冻结昼夜 → 各档光照恒定可比）
+------------------------------------------------------------
+高-正午-追尾 -> [PERF] q=high day=0.25 cam=0 frames=210 avg=83.3 min=32.0 max=92.0 nodes=874 draws=1749
+中-正午-追尾 -> [PERF] q=mid day=0.25 cam=0 frames=210 avg=137.2 min=112.0 max=144.0 nodes=893 draws=1808
+低-正午-追尾 -> [PERF] q=low day=0.25 cam=0 frames=210 avg=134.8 min=79.0 max=144.0 nodes=853 draws=1774
+高-黄昏-追尾 -> [PERF] q=high day=0.47 cam=0 frames=210 avg=82.6 min=49.0 max=91.0 nodes=849 draws=1837
+高-深夜-追尾 -> [PERF] q=high day=0.80 cam=0 frames=210 avg=83.3 min=53.0 max=91.0 nodes=848 draws=1877
+中-深夜-追尾 -> [PERF] q=mid day=0.80 cam=0 frames=210 avg=133.9 min=68.0 max=144.0 nodes=861 draws=1837
+高-正午-侧面 -> [PERF] q=high day=0.25 cam=2 frames=210 avg=79.4 min=51.0 max=88.0 nodes=877 draws=1675
+高-深夜-第一人称 -> [PERF] q=high day=0.80 cam=3 frames=210 avg=89.8 min=70.0 max=97.0 nodes=854 draws=1801
+DONE -> C:/Users/26483/WorkBuddy/2026-09-29-21-13-37/PelicanRider-Godot/logs/V109/perf-baseline-20261005-0531.txt
