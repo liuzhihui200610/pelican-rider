@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1x58xa3mo5hb"
+path="res://.godot/imported/bike_lamp.obj-f439539d37b32283d27b4b5410d78d1d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bike_lamp.obj-f439539d37b32283d27b4b5410d78d1d.mesh"]
+
+source_file="res://assets/bike_lamp.obj"
+dest_files=["res://.godot/imported/bike_lamp.obj-f439539d37b32283d27b4b5410d78d1d.mesh", "res://.godot/imported/bike_lamp.obj-f439539d37b32283d27b4b5410d78d1d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

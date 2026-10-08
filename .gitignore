@@ -1,0 +1,19 @@
+# Godot 引擎自动生成的导入缓存（本地重建即可，体积 450MB+）
+.godot/
+
+# 历史诊断产物（344MB 截图/旧日志，与运行无关，留在本地）
+_archive/
+
+# 运行时生成的临时文件
+perf_last.txt
+*.tmp
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+push_progress*.log
+_split/

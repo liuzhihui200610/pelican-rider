@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AI 鹈鹕模型预览</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+  body { margin: 0; background: #14101f; color: #ffd9a8; font-family: "Microsoft YaHei", sans-serif; display: flex; flex-direction: column; align-items: center; }
+  h1 { font-size: 18px; margin: 14px 0 4px; }
+  p { font-size: 13px; margin: 0 0 8px; color: #b9aed0; }
+  model-viewer { width: 92vw; height: 78vh; background: radial-gradient(ellipse at center, #241d38 0%, #14101f 70%); border-radius: 12px; }
+</style>
+</head>
+<body>
+<h1>AI 生成的"鹈鹕骑自行车"整体模型</h1>
+<p>拖动旋转 · 滚轮缩放 —— 游戏内以这张参考图直接图生 3D，整组替换程序化角色+自行车（游戏内总高约 1.72m，车轮贴地）</p>
+<model-viewer src="ai_rider.glb" camera-controls auto-rotate shadow-intensity="1" exposure="1.1"></model-viewer>
+</body>
+</html>

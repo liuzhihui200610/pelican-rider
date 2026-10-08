@@ -1,0 +1,31 @@
+# 换行策略：仓库内统一 LF，按文件类型固定检出行为
+# 教训来源：.sh 若被转成 CRLF，bash 解析直接报错；.bat 必须 CRLF
+* text=auto
+
+# 脚本类：强制 LF（bash / Godot / Python）
+*.sh        text eol=lf
+*.gd        text eol=lf
+*.gdshader  text eol=lf
+*.py        text eol=lf
+*.godot     text eol=lf
+*.tscn      text eol=lf
+*.import    text eol=lf
+*.md        text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.js        text eol=lf
+
+# Windows 批处理：强制 CRLF（cmd 解析 LF 会报错）
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+*.ps1       text eol=crlf
+
+# 二进制（防止任何转换）
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.glb   binary
+*.obj   binary
+*.wav   binary
+*.ogg   binary
+*.mp3   binary

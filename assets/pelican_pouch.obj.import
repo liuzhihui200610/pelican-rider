@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pn0wo2qm0mkh"
+path="res://.godot/imported/pelican_pouch.obj-03e97999bd8cd95c90608d6c794375af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pelican_pouch.obj-03e97999bd8cd95c90608d6c794375af.mesh"]
+
+source_file="res://assets/pelican_pouch.obj"
+dest_files=["res://.godot/imported/pelican_pouch.obj-03e97999bd8cd95c90608d6c794375af.mesh", "res://.godot/imported/pelican_pouch.obj-03e97999bd8cd95c90608d6c794375af.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

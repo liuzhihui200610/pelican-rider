@@ -1,0 +1,1 @@
+[PERF] q=high day=0.25 cam=2 frames=210 avg=79.4 min=51.0 max=88.0 nodes=877 draws=1675
